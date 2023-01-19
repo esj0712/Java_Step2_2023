@@ -1,4 +1,4 @@
-package chapter12;
+package chapter12.Interface;
 
 //상속받아서 times/divide 구현
 public class CompleteCalc2 extends CompleteCalc {
