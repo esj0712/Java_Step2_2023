@@ -7,7 +7,7 @@ public class Member3 implements Comparator<Member3> {
 
 	private int memberId;
 	private String memberName;
-	
+
 	public Member3() {
 		// TODO Auto-generated constructor stub
 	}
@@ -70,19 +70,18 @@ public class Member3 implements Comparator<Member3> {
 
 		return memberName + "회원님의 아이디는 " + memberId + "입니다.";
 	}
-    /*
-     * Comparable
-	@Override
-	public int compareTo(Member3 member) {
-		return (this.memberId - member.memberId) * -1;
-	}
-    */
-	
-	//Comparator
+	/*
+	 * Comparable
+	 * 
+	 * @Override public int compareTo(Member3 member) { return (this.memberId -
+	 * member.memberId) * -1; }
+	 */
+
+	// Comparator
 	@Override
 	public int compare(Member3 member1, Member3 member2) {
-		
-		return (member1.memberId - member2.memberId)*-1;
+
+		return (member1.memberId - member2.memberId) * -1;
 	}
 
 }

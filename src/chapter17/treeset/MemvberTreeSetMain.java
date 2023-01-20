@@ -11,7 +11,7 @@ public class MemvberTreeSetMain {
 		Member3 memberwKim = new Member3(1003, "±è¤±¤±");
 
 		memberTreeSet.addMember(memberwPark);
-		memberTreeSet.addMember(memberwLee);
+        memberTreeSet.addMember(memberwLee);
 		memberTreeSet.addMember(memberwKim);
 
 		memberTreeSet.showAllMember();

@@ -29,6 +29,7 @@ public class MemberhashSet {
 			if (tempId == memberId) {
 				hashset.remove(member2);
 				return true;
+
 			}
 		}
 		System.out.println(memberId + "가 존재하지 않습니다.");
