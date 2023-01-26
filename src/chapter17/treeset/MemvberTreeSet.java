@@ -22,7 +22,7 @@ public class MemvberTreeSet {
 		Iterator<Member3> ir = treeSet.iterator();
 
 		while (ir.hasNext()) {
-		Member3 member = ir.next();
+			Member3 member = ir.next();
 			int tempId = member.getMemberId();
 			if (tempId == memberId) {
 				treeSet.remove(member);
